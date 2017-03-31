@@ -1,0 +1,135 @@
+body {
+    background-color: #E9EAEB;
+}
+
+.mainSuperior{
+    padding-top: 20px;
+}
+.rowChat{
+    border-bottom: 2px solid #CCCCCC;
+    padding-bottom: 20px;
+}
+.rowTop{
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.puntero{
+    cursor: pointer;
+}
+.tituloDoctor{
+    color: #77BEDB;
+    font-size: 16px;
+    font-weight: bold;
+}
+.tituloEspecialista{
+    color: #77BEDB;
+    font-size: 12px;
+}
+.tituloChat{
+    color: #66A9CD;font-size: 18px;font-weight: bold;
+}
+.tituloPregunta{
+    color: #66A9CD;font-size: 24px;
+}
+.tituloBanner{
+    color: white;font-size: 26px;
+}
+.footerMargin{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.panelSuperior{
+    background: rgba(6,120,172,1);
+    background: -moz-linear-gradient(left, rgba(6,120,172,1) 0%, rgba(43,157,203,1) 51%, rgba(6,120,172,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(6,120,172,1)), color-stop(51%, rgba(43,157,203,1)), color-stop(100%, rgba(6,120,172,1)));
+    background: -webkit-linear-gradient(left, rgba(6,120,172,1) 0%, rgba(43,157,203,1) 51%, rgba(6,120,172,1) 100%);
+    background: -o-linear-gradient(left, rgba(6,120,172,1) 0%, rgba(43,157,203,1) 51%, rgba(6,120,172,1) 100%);
+    background: -ms-linear-gradient(left, rgba(6,120,172,1) 0%, rgba(43,157,203,1) 51%, rgba(6,120,172,1) 100%);
+    background: linear-gradient(to right, rgba(6,120,172,1) 0%, rgba(43,157,203,1) 51%, rgba(6,120,172,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0678ac', endColorstr='#0678ac', GradientType=1 );
+    height: 100px;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+.panelPregunta{
+    background-color: #ffffff;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    height: 70px;
+    border:2px solid #58ABCB;
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+.panelPreguntaLeft{
+    background-color: #ffffff;
+    height: 70px;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+.panelPreguntaLeft{
+    background-color: #ffffff;
+    height: 70px;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.panelPreguntaLeft{
+    background-color: #ffffff;
+    height: 70px;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.panelPreguntaLeft{
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.panelPreguntaLeft{
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+}
+
+
+.imagenCircular{
+    width:60px;
+    margin: 2px;
+    border:2px solid #1173B0;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+
+}
+
+.textoBanner{
+    color:#ffffff;
+    font-size: 26px;
+}
