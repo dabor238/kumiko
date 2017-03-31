@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<!--<html class="full" lang="en">-->
+<html lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="dabor238">
+    <title>Multidoctores</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="http://www.multidoctores.com\Content\assets\css\font-awesome/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top navcustom" id="iniciado">
+            <div class="row marginNavbar">
+                <div class="col-lg-1 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-10">
+                    <img class="imgfull" src="https://www.multidoctores.com/content/assets/img/logo-inicio-ml.png" />
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-2"></div>
+                <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                    <a href="#" class="txtMenuTop">Nosotros</a>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                    <a href="#" class="txtMenuTop">Especialidades</a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-3 hidden-xs menuNavbarIniciado">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle txtMenuTop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hola Usuario <span class="caret"></span></a>
+                            <ul class="dropdown-menu ">
+                                <li><a href="#" class="txtMenuTop">Perfil</a></li>
+                                <li><a href="#" class="txtMenuTop">Historial</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#" class="txtMenuTop cerrarSesion">Cerrar sesión</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-xs-1"></div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-default navbar-fixed-top navcustom" id="iniciar">
+
+            <div class="row marginNavbar">
+                <div class="col-lg-1 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-10">
+                    <img class="imgfull" src="https://www.multidoctores.com/content/assets/img/logo-inicio-ml.png" />
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                    <a href="#" class="txtMenuTop">Especialidades</a>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs" style="text-align:center;">
+                    <a href="#" class="txtMenuTop">Nosotros</a>
+                </div>
+                <div class="col-lg-6 col-md-3 col-sm-3 hidden-xs menuNavbar">
+                    <input type="text" class="form-control form-horizontal" placeholder="Usuario">
+                    <input type="text" class="form-control form-horizontal" placeholder="Contraseña">
+                    <button type="submit" class="btn btn-primary iniciarSesion btnBuscar" data-toggle="modal" data-target="#inicioSesion">Iniciar Sesión</button>
+                </div>
+                <div class="visible-xs col-xs-1"></div>
+            </div>
+
+        </nav>
+        <div class="row rowContent">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5 txtHome">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="txtFontHome">¿Cómo te sientes hoy?</h2>
+                    </div>
+                    <div class="col-lg-12 text-center marginRowHome">
+                        <span class="txtFontMenu">Chatea con un doctor en <span class="txtCeleste">tiempo real</span> y pregunta cualquier inquietud respecto a tu salud.</span>
+                    </div>
+                    <div class="col-lg-12 marginRowHome">
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control formBuscar" placeholder="Escribe tu pregunta aquí...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default btnBuscar" type="button">Buscar</button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <img src="img/home-doctor.jpg" class="img-responsive" />
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row marginAzul degradado">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5 test">
+                <img src="img/familia-multidoctoresapp.png" class="img-responsive" style="padding-top:40px;" />
+            </div>
+            <div class="col-lg-5" style="margin-top:25px;">
+                <div class="row divRight">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <span class="txtGrande">+ 100 000</span><br />
+                        <span class="txtPeque">Pacientes atendidos</span>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <div class="row divRight">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <span class="txtGrande">M&eacute;dicos</span><br />
+                        <span class="txtPeque">Calificados</span>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <div class="row divRight">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <span class="txtGrande">24/7</span><br />
+                        <span class="txtPeque">Servicio online</span>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row borderGris">
+            <div class="col-lg-12">
+                <div class="divServicios">
+                    <span class="txtCeleste txtNuestros">Nuestros</span>&nbsp;&nbsp;<span class="txtGris txtServicios">servicios</span>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8" style="padding-bottom:20px;">
+                <img src="img/servicios.png" class="img-responsive" />
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row degradado paddingBeneficios">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 paddingTop">
+                <div class="row">
+                    <div class="col-lg-3 text-center">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <img src="img/icono1.png" class="img-responsive imageIcon" />
+                            </div>
+                            <div class="col-lg-12" style="margin-top:20px;">
+                                <span class="txtBeneficiosTitulo">Bajo demanda</span>
+                            </div>
+                            <div class="col-lg-12" style="margin-top:20px;">
+                                <span class="txtBeneficiosParrafo">Obten una respuesta a tu pregunta médica cuando más la necesites y al instante.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <img src="img/icono1.png" class="img-responsive imageIcon" />
+                            </div>
+                            <div class="col-lg-12" style="margin-top:20px;">
+                                <span class="txtBeneficiosTitulo">Bajo demanda</span>
+                            </div>
+                            <div class="col-lg-12" style="margin-top:20px;">
+                                <span class="txtBeneficiosParrafo">Obten una respuesta a tu pregunta médica cuando más la necesites y al instante.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <img src="img/icono1.png" class="img-responsive imageIcon" />
+                            </div>
+                            <div class="col-lg-12" style="margin-top:20px;">
+                                <span class="txtBeneficiosTitulo">Bajo demanda</span>
+                            </div>
+                            <div class="col-lg-12" style="margin-top:20px;">
+                                <span class="txtBeneficiosParrafo">Obten una respuesta a tu pregunta médica cuando más la necesites y al instante.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <img src="img/icono1.png" class="img-responsive imageIcon" />
+                            </div>
+                            <div class="col-lg-12" style="margin-top:20px;">
+                                <span class="txtBeneficiosTitulo">Bajo demanda</span>
+                            </div>
+                            <div class="col-lg-12" style="margin-top:20px;">
+                                <span class="txtBeneficiosParrafo">Obten una respuesta a tu pregunta médica cuando más la necesites y al instante.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</body>
+</html>
