@@ -154,3 +154,10 @@ margin-left: -71px!important;
 .paddingBeneficios{
     padding-bottom:40px;
 }  
+/*carrosel css*/
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -25.00%; }
+.onebyone-carosel .active.right { left: 25.00%; }
+.onebyone-carosel .next { left: 25.00%; }
+.onebyone-carosel .prev { left: -25.00%; }
+/*legend carrosel css*/
