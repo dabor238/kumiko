@@ -8,7 +8,11 @@ $(document).ready(function () {
         $('#iniciado').hide();
         $('#iniciar').show(); 
     });
-
+    //quotes js
+    $('#quote-carousel').carousel({
+        pause: true,
+        interval: 6000,
+    });
     //carrousel js
     $('#myCarousel').carousel({
         interval: 10000
