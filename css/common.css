@@ -1,0 +1,22 @@
+.fluidDiv{
+    margin-top:10px;
+}
+.navCommon{
+   min-height: 75px!important;
+   background-color:white!important;
+   border-width: 0 0 2px!important;
+   border-color: #B0AFB5;
+}
+.marginBrand{
+    margin-left: 15px!important;
+}
+.rowMenu{
+    margin-left:120px!important;
+}
+.txtMenuTop {
+    font-family: Helvetica-light;
+    font-size: 15px;
+    font-weight: 600!important;
+    color: #737277!important;
+    text-decoration: none!important;
+}
